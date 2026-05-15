@@ -143,7 +143,9 @@ cmd /c mklink /J "$claudeGlobal\link-skills" "$env:USERPROFILE\.skills\tools\lin
 - `git` — Git for Windows（gh 的 fallback）
 - `robocopy` — Windows 内置，用于文件复制
 
-## 与其他工具的区别
+## 与其他工具的区别（参考）
+
+本项目参考了下列的项目，但是转为windows 和 opencode + omo 的用户做了特调适配以及架构改进
 
 本项目的 skills 与 [xhyqaq/skill-manager](https://github.com/xhyqaq/skill-manager) 的区别：
 
